@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jacques+Francois&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+    <title>Computer and Accessories</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header>
+      <!-- NAVBAR  DESKTOP -->
+      <nav class="navDesktop">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">Products</a></li>
+          <li><img src="./images/logo.png" alt="" class="logo" /></li>
+          <li><a href="#gallery">Explore</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- END OF NAVBAR DESKTOP -->
+
+      <!-- NAVBAR MOBILE -->
+
+      <div class="topnav navMobile">
+        <a href="#home" class="active"
+          ><img src="images/logo.png" alt="logo"
+        /></a>
+        <div id="myLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+      </div>
+
+      <!-- END OF NAVBAR MOBILE -->
+
+      <!-- HERO SECTION -->
+
+      <div>
+        <div class="row">
+          <div class="col-md-6 heroContent">
+            <div class="mainHeroContent">
+              <h1>Explore Computers & Phones
+              </h1>
+              <p>
+                Exlore computers and electronics you may wish to buy or 
+                market, in our platform, computers are affordable since we care for our
+                clients the most.
+              </p>
+            </div>
+            <div class="heroButtons">
+              <div class="item">
+                <button class="primaryButton">Our services</button>
+              </div>
+              <div class="item">
+                <button class="secondaryButton">Contact us</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/63487-programming-computer.gif"
+              alt="Computers Accessories"
+              class="img-fluid heroImage"
+            />
+          </div>
+        </div>
+        <svg
+          class="hero-curve"
+          aria-hidden="true"
+          width="1439"
+          height="144"
+          viewBox="0 0 1439 144"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0 144L61.125 132C122.25 120 244.5 96 366.75 96C489 96 611.25 120 733.5 108C855.75 96 978 48 1100.25 54C1222.5 60 1344.75 120 1405.88 132L1467 144V0H1405.88C1344.75 0 1222.5 0 1100.25 0C978 0 855.75 0 733.5 0C611.25 0 489 0 366.75 0C244.5 0 122.25 0 61.125 0H0V144Z"
+            fill="#F6F4ED"
+          />
+        </svg>
+      </div>
+
+      <!-- END OF HERO SECTION -->
+    </header>
+
+    <!-- END OF HEADER -->
+
+    <main>
+      <!-- ABOUT SECTION -->
+
+      <section class="aboutUs" id="about">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img
+              src="images/prayerItem.jpeg"
+              class="img-fluid aboutImage"
+              alt="flowers"
+            />
+          </div>
+          <div class="col-md-6 col-sm-12 aboutContent">
+            <div class="headerContainerAbout">
+              <h2>About us</h2>
+            </div>
+            <p>
+              At our platform, we ensure customer reaching the best products ever in the trend
+              providing services to the maximum level. We contain every sort of desired Computer electron devices
+            </p>
+            <a href="about.html">meet our team -> </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF ABOUT SECTION -->
+
+      <!-- SERVICES SECTION  -->
+
+      <section class="services" id="services">
+        <div class="headerContainer">
+          <h2>Our Products</h2>
+        </div>
+
+        <div class="flexContainer">
+          <div class="manicure card">
+            <img src="images/pics/1 (3).jpg" alt="Phones" />
+            <h3>Techno Spark</h3>
+            <p>
+              This phone is so flexible in terms of speed, data transfer, has good specs for camera and it has a RAM of 8GB, ROM of 64GB
+              The last time  i used this phone i thought am in heaven till the heavens arrived in reality with an offer and free smart watch together.
+            </p>
+            <a href="pricing.html">shop now -> </a>
+          </div>
+          <div class="pedicure card">
+            <img src="images/pics/1 (2).jpg" alt="Laptops" />
+            <h3>HP Elite Book</h3>
+            <p>
+                This laptop is superb especially when you want to multi task . In the field of IT, it contains every feature a program may need
+                RAM of 8GB, ROM of 256gib ssd, and it is light to carry, core intel i7
+              
+            </p>
+            <a href="pricing.html">shop now -> </a>
+          </div>
+          <div class="eyelashes card">
+            <img src="images/pics/2 (3).jpg" alt="keyboard" />
+            <h3>External Keyboard</h3>
+            <p>
+                Keyboards are now available to enhance typing in extra value you may wish to admire. This allows  you to entail in typing without worrying if you wanna break something in your laptop motherboard.
+              
+            </p>
+            <a href="pricing.html">shop now -> </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF SERVICES SECTION -->
+
+      <!-- GALLERY SECTION -->
+
+      <section class="gallery" id="gallery">
+        <div class="headerContainer">
+          <h2>Other Products</h2>
+        </div>
+
+        <div class="galleryWrapper">
+          <div>
+            <img src="images/pics/2 (15).jpg" alt="Lenova" />
+          </div>
+          <div>
+            <img src="images/pics/2 (16).jpg" alt="microsoft" />
+          </div>
+          <div>
+            <img src="images/pics/2 (17).jpg" alt="thinkpad" />
+          </div>
+          <div>
+            <img src="images/pics/3.jpg" alt="Elite Book" />
+          </div>
+          <div>
+            <img src="images/pics/1 (3).jpg" alt="tv" />
+          </div>
+          <div>
+            <img src="images/pics/6.jpg" alt="tv" />
+          </div>
+          <div>
+            <img src="images/pics/3 (2).jpg" alt="stand" />
+          </div>
+          <div>
+            <img src="images/pics/4.jpg" alt="hp" />
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF GALLERY SECTION -->
+
+      <!-- TESTIMONIALS SECTION -->
+
+      <section class="testimonials" id="testimonials">
+        <div class="testimonialsHeader">
+          <h2>They're talking</h2>
+        </div>
+
+        <!-- DESKTOP CAROUSEL -->
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide carousel-dark carouselLarge"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/1 (2).jpg" alt="hp" width=50% height=30%/>
+                    <h5>Nickson</h5>
+                    <p>
+                      "First and foremost, the product's performance was outstanding. HP has consistently delivered reliable and efficient devices, and this one was no exception. 
+                      It effortlessly handled demanding tasks with ease, providing Okwemba with a seamless computing experience. 
+                      Rating: ⭐⭐⭐⭐⭐ (5/5)."
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/2 (1).jpg" alt="hp" />
+                    <h5>Okwemba</h5>
+                    <p>
+                      "I recently sold an HP product to Okwemba, and I couldn't be more delighted with the experience.
+                       As an owner of various HP devices myself, I am well aware of the brand's reputation for producing quality products, and this transaction reinforced my trust in their offerings.
+                       Rating: ⭐⭐⭐⭐⭐ (5/5)."
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/2 (2).jpg" alt="keyboard" />
+                    <h5>Nandoya</h5>
+                    <p>
+                      "First and foremost, the typing experience with the external keyboard was a significant improvement. The keys had a satisfying tactile feedback, allowing for precise and effortless typing. 
+                      Nandoya will appreciate the comfortable key travel.
+                      Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/2 (3).jpg" alt="keyboard" />
+                    <h5>Miheso</h5>
+                    <p>
+                      "The design of the keyboard is also worth mentioning. It boasts a sleek and compact design, making it easy to carry and use on the go. Its lightweight nature allows Nandoya to take it along to coffee shops, libraries, or anywhere they prefer to work.
+                       The keyboard's ergonomic layout ensures a comfortable typing position.
+                       Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/2 (6).jpg" alt="tablet" />
+                    <h5>George</h5>
+                    <p>
+                      "Finally, the features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features, it offered a comprehensive package that catered to Okwemba's diverse needs.
+                      Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/2 (8).jpg" alt="hp" />
+                    <h5>Mercy</h5>
+                    <p>
+                      "Additionally, the build quality was remarkable. 
+                      The device was crafted with precision and attention to detail, showcasing HP's commitment to excellence. The sleek design and sturdy construction.
+                      Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/2 (10).jpg" alt="tv" />
+                    <h5>Kevin</h5>
+                    <p>
+                      "The smart TV I provided offers an impressive range of features and a captivating viewing experience that will surely enhance Kevin's entertainment setup.
+                      Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="carouselCard">
+                    <img src="images/pics/4 (1).jpg" alt="spark7" />
+                    <h5>Ann</h5>
+                    <p>
+                      "The Techo Spark 7's build quality was solid, offering a sleek and ergonomic design that felt comfortable to hold. The device's slim profile and lightweight nature made it convenient for on-the-go usage.
+                      Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- END OF DESKTOP CAROUSEL -->
+
+        <!-- MOBILE CAROUSEL  -->
+
+        <div
+          id="carouselExample"
+          class="carousel slide carousel-dark carouselSmall"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carouselCard">
+                <img src="images/pics/4 (2).jpg" alt="smart tv" width="200" height="100" />
+                <h5>Jessica</h5>
+                <p>
+                  "Additionally, the setup and installation process of the smart TV are generally straightforward. Jessica can easily follow the instructions provided, and with minimal effort, have the TV up and running in no time
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/6.jpg" alt="hp" width="200" height="100"/>
+                <h5>Nick</h5>
+                <p>
+                  "Furthermore, the customer service provided by HP deserves commendation. From the moment I contacted them for assistance, their support was prompt, knowledgeable, and highly professional
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/7.jpg" alt="HP" width="200" height="100"/>
+                <h5>Okwesh</h5>
+                <p>
+                  " Features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features,
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/3 (2).jpg" alt="HP" width="200" height="100"/>
+                <h5>Ommolo</h5>
+                <p>
+                  " features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features,.
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/3.jpg" alt="hp" width="200" height="100"/>
+                <h5>Barbara</h5>
+                <p>
+                  " features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features,.
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/2 (17).jpg" alt="hp" width="200" height="100"/>
+                <h5>Elizabeth</h5>
+                <p>
+                  " features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features,
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/2 (16).jpg" alt="hp" width="200" height="100"/>
+                <h5>Maya</h5>
+                <p>
+                  " features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features,
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carouselCard">
+                <img src="images/pics/2 (15).jpg" alt="lenova" width="200" height="100"/>
+                <h5>Ann</h5>
+                <p>
+                  " features and technology packed into this HP product were truly impressive. From the vibrant display and immersive audio to the extensive connectivity options and advanced security features.
+                  Rating: ⭐⭐⭐⭐⭐ (5/5)"
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- END OF MOBILE CAROUSEL  -->
+      </section>
+
+      <!-- END OF TESTIMONIALS SECTION -->
+
+      <!-- TREAT YOURSELF SECTION -->
+
+      <section class="treatYourself">
+        <h4>Explore your Dream Products, today.</h4>
+        <button class="secondaryButton treatYourselfButton">
+          Shop with us
+        </button>
+      </section>
+
+      <!-- END OF TREAT YOURSELF SECTION -->
+
+      <!-- CONTACT SECTION -->
+
+      <section class="contact" id="contact">
+        <div class="headerContainer">
+          <h2>Contact</h2>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="Enter your name..." />
+
+          <input type="email" placeholder="Enter your email..." />
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter your message..."
+          ></textarea>
+          <input type="submit" value="Submit" class="submitButton" />
+        </form>
+      </section>
+
+      <!-- END OF CONTACT SECTION -->
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footerFlexWrapper">
+        <div class="contactInfo">
+          <img src="images/icons8-address-50.png" alt="adress icon" class="icon" />
+
+          <div class="adress">
+            <h6>Address</h6>
+            <span>00100, Nairobi , Kenya</span>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+        <div class="contactInfoColumns">
+          <div class="mailSection">
+            <div class="contactInfo">
+              <img src="images/icons8-email.gif" alt="mail icon" class="icon" />
+
+              <div class="mail">
+                <h6>Mail</h6>
+                <span>okwembanickson3525@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="phoneSection">
+            <div class="contactInfo">
+              <img src="images/icons8-phone-48.png" alt="phone icon" class="icon" />
+
+              <div class="phone">
+                <h6>Phone</h6>
+                <span>+254712675045</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="attribution">
+        Copyright &copy; &nbsp;
+        <a href="https://miskiewicz-kinga.netlify.app/" target="_blank">
+          Okwemba Nickson
+        </a>
+        &nbsp; 2023
+      </div>
+    </footer>
+
+    <!-- END OF FOOTER -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
