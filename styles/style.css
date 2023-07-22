@@ -11,12 +11,11 @@
 
 :root {
   /* Your root CSS variables (if any) */
-    :root {
+  :root {
     --main-bg-color: #f6f4ed;
     --main-theme-color: #b7b484;
     --secondary-theme-color: #8e8836;
   }
-    
 }
 
 /* GENERAL STYLES */
@@ -429,7 +428,7 @@ footer {
 /* Tablets and Larger Mobile Phones (portrait and landscape) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heroContent {
-    padding: 0 50px;
+    padding: 0 30px;
   }
 
   .aboutContent {
@@ -449,7 +448,7 @@ footer {
 /* Tablets and Larger Devices (landscape) */
 @media screen and (min-width: 1024px) {
   .heroContent {
-    padding: 0 100px;
+    padding: 0 50px;
   }
 
   .aboutContainer {
@@ -458,7 +457,7 @@ footer {
 
   .aboutContent {
     max-width: 25%;
-    margin-left: 170px;
+    margin-left: 30px;
   }
 
   .gridItem {
@@ -473,7 +472,7 @@ footer {
 /* Desktops and Larger Devices */
 @media screen and (min-width: 1200px) {
   .heroContent {
-    padding: 0 200px;
+    padding: 0 100px;
   }
 
   .aboutContainer {
@@ -482,7 +481,7 @@ footer {
 
   .aboutContent {
     max-width: 20%;
-    margin-left: 250px;
+    margin-left: 50px;
   }
 
   .gridItem {
