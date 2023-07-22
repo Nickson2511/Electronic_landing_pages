@@ -3,21 +3,75 @@
     --main-theme-color: #b7b484;
     --secondary-theme-color: #8e8836;
   }
-
-
-/* Responsive styles for Mobile */
+/* Responsive styles for mobile */
 @media screen and (max-width: 767px) {
-  header {
-    /* ... (styles for mobile) */
+  /* Adjust the header logo size */
+  .logo {
+    max-width: 100px;
+  }
+
+  /* Update the topnav layout for mobile */
+  .topnav {
+    display: block;
+  }
+  .topnav a {
+    display: block;
+  }
+  .topnav .icon {
+    display: block;
+  }
+  #myLinks {
+    display: none;
+  }
+  .topnav.navMobile .icon {
+    float: right;
+  }
+  .topnav.navMobile a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
 
-/* Responsive styles for Tablet */
+/* Responsive styles for tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  header {
-    /* ... (styles for tablet) */
+  /* Adjust the header logo size */
+  .logo {
+    max-width: 150px;
   }
 }
+
+/* Responsive styles for desktop */
+@media screen and (min-width: 1024px) {
+  /* Adjust the header logo size */
+  .logo {
+    max-width: 200px;
+  }
+
+  /* Update the header navigation layout for desktop */
+  .navDesktop {
+    display: block;
+  }
+  .navDesktop ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navDesktop li {
+    margin: 0 10px;
+    list-style: none;
+  }
+
+  /* Hide the mobile navigation on desktop */
+  .navMobile {
+    display: none;
+  }
+}
+
+
+
+
+
+
 
 
 
